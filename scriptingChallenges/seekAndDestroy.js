@@ -10,9 +10,9 @@ Note: You have to use the arguments object.
 
 
 function destroyer(arr, ...destroy) { // apply another parameter and turn it into an array using the Spread Operator
-    return arr.filter(element => !destroy.includes(element))
+    return arr.filter(element => !destroy.includes(element));
     /* use the filter method (a loop and an IF Statement rolled into one) to check all elements in
-    the array. keep the elements that are not included in the destroy array, get rid of the rest */
+    the array. If true, keep the elements that are not included in the destroy array, otherwise if false get rid of it */
   }
   
   destroyer([1, 2, 3, 1, 2, 3], 2, 3);
