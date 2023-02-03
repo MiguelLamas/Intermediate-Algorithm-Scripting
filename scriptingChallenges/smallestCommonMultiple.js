@@ -13,7 +13,6 @@ divisible by all numbers between 1 and 3. The answer here would be 6.
 
 // 1.  Helper function to find Smallest Common Multiple. Starting with lowNum and highNum
 // 2. Any SCM will at least be as high as the highNum
-// 3. 
 
 // This helper function will allow us to find the SCM of any two numbers
 function findSCM(num1, num2) {
